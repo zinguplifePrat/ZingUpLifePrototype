@@ -136,12 +136,13 @@ import NHToast from "./screens/toast/";
 import Actionsheet from "./screens/actionsheet";
 import NHAccordion from "./screens/accordion/";
 import NHDatePicker from "./screens/datepicker/";
-
+import Login from "./pages/login/index"
 const Drawer = DrawerNavigator(
   {
     Home: { screen: Home },
     Anatomy: { screen: Anatomy },
-   
+    Login: {screen:Login},
+    Header:{screen:Header},
     Footer: { screen: Footer },
     NHBadge: { screen: NHBadge },
     NHButton: { screen: NHButton },
@@ -179,7 +180,8 @@ const Drawer = DrawerNavigator(
 const AppNavigator = StackNavigator(
   {
     Drawer: { screen: Drawer },
-
+    Header2:{screen:Header2},
+    Login: {screen:Login},
     Header1: { screen: Header1 },
     Header3: { screen: Header3 },
     Header4: { screen: Header4 },
