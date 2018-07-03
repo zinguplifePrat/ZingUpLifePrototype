@@ -8,11 +8,13 @@ import TabOne from "./tabOne";
 import TabTwo from "./tabTwo";
 import TabThree from "./tabThree";
 import styles from '../Header/styles'
-
+//import styles from '../button/styles'
 const walk = require("../../Images/walk.png");
     const run = require("../../Images/run.png");
     const sleep = require("../../Images/sleep.png");
-   
+   const diet1 = require("../../Images/amrita.jpg");
+   const diet2 = require("../../Images/ruchi.jpg");
+   const diet3 = require("../../Images/ryan.jpg");
       class BasicTab extends Component {
   render() {
     
@@ -34,11 +36,6 @@ const walk = require("../../Images/walk.png");
         
           <Tab heading="Stats">
         <Container>
-        <Content padder>
-         
-          <Button rounded success style={styles.mb15}>
-            <Text>All </Text>
-          </Button>
         <View style ={{flex: 1,
             justifyContent: 'center',
             alignItems: 'center',
@@ -55,6 +52,12 @@ const walk = require("../../Images/walk.png");
           source={require('../../Images/1.jpg')}
         />
         </View>
+        <Content padder>
+         
+          <Button rounded success style={styles.mb15}>
+            <Text>All </Text>
+          </Button>
+       
           <Card style={styles.mb}>
             <CardItem>
               <Body>
@@ -196,20 +199,73 @@ const walk = require("../../Images/walk.png");
                   <Row style={{padding:5}}>
                   <IconNB style={{paddingRight:15}} name="md-share" /> 
                   <IconNB  name="md-add" />
+                  
                   </Row>
                 </Right>
               </Grid>
           </Card>
-          
+              <Icon name="star"/>
           </Content>
 
       </Container>
           
           </Tab>
           <Tab heading="Schedule">
-            <TabThree />
-          </Tab>
-        </Tabs>
+          <View style ={{
+            justifyContent: 'center',
+            alignItems: 'center',
+            backgroundColor: '#F5FCFF',
+            flexDirection: 'column',
+            position:'absolute'}}>
+        <Image
+          style={{
+            width: Dimensions.get('window').width,
+             height:Dimensions.get('window').height,
+             flex: 1,
+            resizeMode: 'cover'
+        }}
+          source={require('../../Images/1.jpg')}
+        />
+        
+        </View>
+          <Container style={ {position:'relative',padding:15,marginBottom:250}}>
+          
+          <Card style={styles.mb}>
+                
+                <Text style={{color:'green',textAlign:'center',fontWeight:'bold',fontSize:20}}>Appointment Scheduled</Text>
+              <View>
+                <Text style={{fontWeight:'bold'}}> Date</Text>
+                <Text> Thursday, 20th Sept 2018 </Text>
+             </View>
+            <CardItem>
+               <Left>
+                  <Thumbnail circle size={80} source={diet1} />
+               <Body>
+                <Text style={{color:'darkblue'}}>Aarohi Sharma </Text>
+                <Text>Certified & License Zumba Instructor</Text>
+              </Body>
+              <IconNB  name="md-star" /><IconNB  name="md-star" /><IconNB  name="md-star" /><IconNB  name="md-star" />
+              </Left>
+           </CardItem>
+
+           {/* <View>
+              <Button bordered primary style={{alignSelf:'center',justifyContent:'space-evenly'}}>
+                <Text>Cancel Booking</Text>
+              </Button>
+
+              <View style={{padding:20}}>
+              <Button bordered primary style={{alignSelf:'center',justifyContent:'space-around'}}>
+                <Text>Reschedule Appointment</Text>
+              </Button>
+              </View>
+           </View> */}
+           <Text><Text style={{fontWeight:'bold'}}>Venue:</Text>201/B,Park Avenue, Bandra Kurla Andheri(E), Mumbai</Text>
+           <Text style={{marginTop:20}}><Text style={{fontWeight:'bold'}}>Note:</Text>Please bring your previous reports</Text>
+         </Card>
+       </Container>
+          
+     </Tab>
+     </Tabs>
       </Container>
     );
   }
