@@ -58,3 +58,8 @@ node_modules/
 *.jar
 .vscode/ 
 
+android/
+node_modules/
+*.jar
+android/app/build/
+

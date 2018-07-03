@@ -107,7 +107,7 @@ import AccordionIcon from "./screens/accordion/accordion-icon";
 import AccordionIconStyle from "./screens/accordion/accordion-icon-style";
 import AccordionHeaderContentStyle from "./screens/accordion/accordion-header-content-style";
 import AccordionCustomHeaderContent from "./screens/accordion/accordion-custom-header-content";
-
+import DashBoardStats from "./pages/DashBoardStats";
 import Home from "./screens/home/";
 import Anatomy from "./screens/anatomy/";
 import Footer from "./screens/footer/";
@@ -141,8 +141,13 @@ const Drawer = DrawerNavigator(
   {
     Home: { screen: Home },
     Anatomy: { screen: Anatomy },
+<<<<<<< HEAD
     Login: {screen:Login},
     Header:{screen:Header},
+=======
+    DashBoardStats: {screen: DashBoardStats},
+    Header : {screen:Header},
+>>>>>>> f015afe839a07cf1893b881b88f60e75cc744b90
     Footer: { screen: Footer },
     NHBadge: { screen: NHBadge },
     NHButton: { screen: NHButton },
@@ -180,15 +185,18 @@ const Drawer = DrawerNavigator(
 const AppNavigator = StackNavigator(
   {
     Drawer: { screen: Drawer },
+<<<<<<< HEAD
     Header2:{screen:Header2},
     Login: {screen:Login},
+=======
+>>>>>>> f015afe839a07cf1893b881b88f60e75cc744b90
     Header1: { screen: Header1 },
     Header3: { screen: Header3 },
     Header4: { screen: Header4 },
     Header5: { screen: Header5 },
     Header6: { screen: Header6 },
     Header7: { screen: Header7 },
-    Header8: { screen: Header8 },
+   Header8: { screen: Header8 },
     HeaderSpan: { screen: HeaderSpan },
     HeaderNoShadow: { screen: HeaderNoShadow },
     HeaderNoLeft: { screen: HeaderNoLeft },
