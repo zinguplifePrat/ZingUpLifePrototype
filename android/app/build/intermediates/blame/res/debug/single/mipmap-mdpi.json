@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/home/user/Desktop/projects/ZUL/ZingUpLifePrototype/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/home/user/Desktop/projects/ZUL/ZingUpLifePrototype/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\home\\user\\Desktop\\projects\\ZUL\\ZingUpLifePrototype\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\home\\user\\Desktop\\projects\\ZUL\\ZingUpLifePrototype\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/home/user/Desktop/NativeBase-KitchenSink/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/home/user/Desktop/NativeBase-KitchenSink/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\user\\Desktop\\zinguplife\\ZingUpLifePrototype\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\user\\Desktop\\zinguplife\\ZingUpLifePrototype\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\home\\user\\Desktop\\NativeBase-KitchenSink\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\home\\user\\Desktop\\NativeBase-KitchenSink\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]

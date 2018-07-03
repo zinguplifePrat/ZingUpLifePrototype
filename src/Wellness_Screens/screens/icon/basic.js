@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { View } from "react-native";
-
 import {
   Container,
   Header,
@@ -23,6 +22,7 @@ class BasicIcon extends Component {
           <Left>
             <Button transparent onPress={() => this.props.navigation.goBack()}>
               <Icon name="arrow-back" />
+             
             </Button>
           </Left>
           <Body>
@@ -42,6 +42,13 @@ class BasicIcon extends Component {
               name="pizza"
               style={{ width: 45, height: 45, justifyContent: "center" }}
             />
+
+            <Icon
+              active
+              name="pin"
+              style={{ width: 45, height: 45, justifyContent: "center" }}
+            />
+
             <Icon
               name="person"
               style={{ width: 45, height: 45, justifyContent: "center" }}
