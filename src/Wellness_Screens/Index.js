@@ -197,7 +197,7 @@ const Drawer = DrawerNavigator(
     Footer: { screen: Footer },
     Login: {screen:Login},
     Header:{screen:Header},
-   Footer: { screen: Footer },
+    Footer: { screen: Footer },
     NHBadge: { screen: NHBadge },
     NHButton: { screen: NHButton },
     NHCard: { screen: NHCard },
