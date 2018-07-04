@@ -136,11 +136,65 @@ import NHToast from "./screens/toast/";
 import Actionsheet from "./screens/actionsheet";
 import NHAccordion from "./screens/accordion/";
 import NHDatePicker from "./screens/datepicker/";
+import StrengthandEnergy from './pages/AssessmentQuiz/StrengthandEnergy/';
+import StrengthandEnergy2 from './pages/AssessmentQuiz/StrengthandEnergy2/';
+import StrengthandEnergy3 from './pages/AssessmentQuiz/StrengthandEnergy3/';
+import StrengthandEnergy4 from './pages/AssessmentQuiz/StrengthandEnergy4/';
+import StrengthandEnergy5 from './pages/AssessmentQuiz/StrengthandEnergy5/';
+import StrengthandEnergy6 from './pages/AssessmentQuiz/StrengthandEnergy6/';
+import StrengthandEnergy7 from './pages/AssessmentQuiz/StrengthandEnergy7/';
+import StrengthandEnergy8 from './pages/AssessmentQuiz/StrengthandEnergy8/';
+import StrengthandEnergy9 from './pages/AssessmentQuiz/StrengthandEnergy9/';
+import StrengthandEnergy10 from './pages/AssessmentQuiz/StrengthandEnergy10/';
+import StrengthandEnergy11 from './pages/AssessmentQuiz/StrengthandEnergy11/';
+import StrengthandEnergy12 from './pages/AssessmentQuiz/StrengthandEnergy12/';
+import StrengthandEnergy13 from './pages/AssessmentQuiz/StrengthandEnergy13/';
+import StrengthandEnergy14 from './pages/AssessmentQuiz/StrengthandEnergy14/';
+import StrengthandEnergy15 from './pages/AssessmentQuiz/StrengthandEnergy15/';
+import StrengthandEnergy16 from './pages/AssessmentQuiz/StrengthandEnergy16/';
+import StrengthandEnergy17 from './pages/AssessmentQuiz/StrengthandEnergy17/';
+import StrengthandEnergy18 from './pages/AssessmentQuiz/StrengthandEnergy18/';
+import StrengthandEnergy19 from './pages/AssessmentQuiz/StrengthandEnergy19/';
+import StrengthandEnergy20 from './pages/AssessmentQuiz/StrengthandEnergy20/';
+import StrengthandEnergy21 from './pages/AssessmentQuiz/StrengthandEnergy21/';
+
+
+
+
+
+
+import Progressbar from './pages/ProgressBar/ProgressBar/';
 import Login from "./pages/login/index"
 const Drawer = DrawerNavigator(
   {
     Home: { screen: Home },
     Anatomy: { screen: Anatomy },
+    StrengthandEnergy  : { screen : StrengthandEnergy },
+    StrengthandEnergy2 : { screen : StrengthandEnergy2 },
+    StrengthandEnergy3 : { screen : StrengthandEnergy3 },
+    StrengthandEnergy4 : { screen : StrengthandEnergy4 },
+    StrengthandEnergy5 : { screen : StrengthandEnergy5 },
+    StrengthandEnergy6 : { screen : StrengthandEnergy6 },
+    StrengthandEnergy7 : { screen : StrengthandEnergy7 },
+    StrengthandEnergy8 : { screen : StrengthandEnergy8 },
+    StrengthandEnergy9 : { screen : StrengthandEnergy9 },
+    StrengthandEnergy10 : { screen : StrengthandEnergy10 },
+    StrengthandEnergy11 : { screen : StrengthandEnergy11 },
+    StrengthandEnergy12 : { screen : StrengthandEnergy12 },
+    StrengthandEnergy13 : { screen : StrengthandEnergy13 },
+    StrengthandEnergy14 : { screen : StrengthandEnergy14 },
+    StrengthandEnergy15 : { screen : StrengthandEnergy15 },
+    StrengthandEnergy16 : { screen : StrengthandEnergy16 },
+    StrengthandEnergy17 : { screen : StrengthandEnergy17 },
+    StrengthandEnergy18 : { screen : StrengthandEnergy18 },
+    StrengthandEnergy19 : { screen : StrengthandEnergy19 },
+    StrengthandEnergy20 : { screen : StrengthandEnergy20 },
+    StrengthandEnergy21 : { screen : StrengthandEnergy21 },
+
+    Progressbar : { screen: Progressbar},
+
+    
+    Footer: { screen: Footer },
     Login: {screen:Login},
     Header:{screen:Header},
    Footer: { screen: Footer },
@@ -180,6 +234,28 @@ const Drawer = DrawerNavigator(
 const AppNavigator = StackNavigator(
   {
     Drawer: { screen: Drawer },
+    StrengthandEnergy : { screen : StrengthandEnergy },
+    StrengthandEnergy2 : { screen : StrengthandEnergy2 },
+    StrengthandEnergy3 : { screen : StrengthandEnergy3 },
+    StrengthandEnergy4 : { screen : StrengthandEnergy4 },
+    StrengthandEnergy5 : { screen : StrengthandEnergy5 },
+    StrengthandEnergy6 : { screen : StrengthandEnergy6 },
+    StrengthandEnergy7 : { screen : StrengthandEnergy7 },
+    StrengthandEnergy8 : { screen : StrengthandEnergy8 },
+    StrengthandEnergy9 : { screen : StrengthandEnergy9 },
+    StrengthandEnergy10 : { screen : StrengthandEnergy10 },
+    StrengthandEnergy11 : { screen : StrengthandEnergy11 },
+    StrengthandEnergy12 : { screen : StrengthandEnergy12 },
+    StrengthandEnergy13 : { screen : StrengthandEnergy13 },
+    StrengthandEnergy14 : { screen : StrengthandEnergy14 },
+    StrengthandEnergy15 : { screen : StrengthandEnergy15 },
+    StrengthandEnergy16 : { screen : StrengthandEnergy16 },
+    StrengthandEnergy17 : { screen : StrengthandEnergy17 },
+    StrengthandEnergy18 : { screen : StrengthandEnergy18 },
+    StrengthandEnergy19 : { screen : StrengthandEnergy19 },
+    StrengthandEnergy20 : { screen : StrengthandEnergy20 },
+    StrengthandEnergy21 : { screen : StrengthandEnergy21 },
+    Progressbar : { screen : Progressbar},
     Header2:{screen:Header2},
     Login: {screen:Login},
     Header1: { screen: Header1 },
