@@ -188,6 +188,18 @@ const datas = [
     icon: "paper",
     bg: "#48525D"
   }
+  ,{
+    name: "StrengthandEnergy",
+    route: "StrengthandEnergy",
+    icon: "phone-portrait",
+    bg: "#C5F442"
+  },
+  {
+    name: "ProgressBar",
+    route: "ProgressBar",
+    icon: "phone-portrait",
+    bg: "#C5F442"
+  },
 ];
 
 class SideBar extends Component {
