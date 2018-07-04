@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { View ,Image ,Dimensions} from 'react-native';
+import * as Progress from 'react-native-progress';
+import { Col,Row } from "react-native-easy-grid";
 import {
   Container,
   Header,
@@ -14,7 +16,8 @@ import {
   Right,
   ListItem,
   CheckBox,
-  Body
+  Body,
+  Grid
 } from "native-base";
 
 import styles from "./styles";
@@ -65,7 +68,7 @@ class StrengthandEnergy extends Component {
   
   render() {
     let screenWidth = Dimensions.get('screen').width;
-        let screenHeight = Dimensions.get('screen').height;
+    let screenHeight = Dimensions.get('screen').height;
     return (
       <Container style={styles.container}>
         <Header>
@@ -84,41 +87,51 @@ class StrengthandEnergy extends Component {
         </Header>
 
         <Content>
-          
-        <View>
-           {/* <Text>Content goes here</Text>  */}
-          <Image
-            style={{
-              backgroundColor: '#ccc',
-              // flex: 1,
-              width: screenWidth,
-              height: screenHeight,
 
-              position: 'absolute',
-              justifyContent: 'center',
-            }}
-            source={require('../../Images/lotus.jpg')}
-          >
-          </Image>
-          <Text
-          style={{
-            backgroundColor: '#fff',
-            fontSize: 150,
-            padding:12,
-            marginTop:150,
-            backgroundColor:'green',
-          }}
-        >
+          
+          <View style={{
+            backgroundColor:'#007aff',
+            width:screenWidth,
+            }}>
+          <Grid>
+            <Col size={10}>
+                <Text>
+                 <Button  transparent onPress={() => this.props.navigation.goBack()}>
+                      <Icon name="arrow-back" style={{ color: "white" }}/>
+                </Button>
+                </Text>
+            </Col>
+            <Col size={85}>
+            <Text style={{
+              fontWeight:'bold',
+              fontSize:20,
+              color:'white',
+              padding:7
+            }}> 
+               Strength and Energy</Text>
+            </Col>
+          </Grid>
+          </View>
+          
+        <Progress.Bar progress={0.01} width={screenWidth}  borderWidth={0} color={'black'} borderRadius={0}/>
+        <View style={{
+          //  backgroundColor:'lightseagreen',
+          width:screenWidth,
+          height:screenHeight
+        }}>
+          
           <Text style={{
-            marginLeft:30
+            marginTop:50,
+            padding:20,
+            alignSelf:'center',
+            fontFamily:'Cochin',
+            fontSize:30
           }}
           >
           1.When do you eat?
           </Text>
-       </Text>
-       <View style={{
-         backgroundColor:"#fff"
-         }}>
+       
+       <View>
           <ListItem button onPress={() => this.toggleSwitch1()}>
             <CheckBox
             color="green"
@@ -126,7 +139,8 @@ class StrengthandEnergy extends Component {
               onPress={() => this.toggleSwitch1()}
             />
             <Body>
-              <Text>I keep munching every now and then</Text>
+              <Text style={styles.optionText}>
+               I keep munching every now and then</Text>
             </Body>
           </ListItem>
           <ListItem button onPress={() => this.toggleSwitch2()}>
@@ -136,7 +150,7 @@ class StrengthandEnergy extends Component {
               onPress={() => this.toggleSwitch2()}
             />
             <Body>
-              <Text>When i am bored</Text>
+              <Text style={styles.optionText}>When i am bored</Text>
             </Body>
           </ListItem>
           <ListItem button onPress={() => this.toggleSwitch3()}>
@@ -146,7 +160,7 @@ class StrengthandEnergy extends Component {
               onPress={() => this.toggleSwitch3()}
             />
             <Body>
-               <Text>When i am hungry</Text>
+               <Text style={styles.optionText} >When i am hungry</Text>
             </Body>
           </ListItem>
           <ListItem button onPress={() => this.toggleSwitch4()}>
@@ -156,30 +170,32 @@ class StrengthandEnergy extends Component {
               onPress={() => this.toggleSwitch4()}
             />
             <Body>
-            <Text>At regular intervals</Text>
+            <Text style={styles.optionText} >At regular intervals</Text>
             </Body>
           </ListItem>
           </View>
+          
           <View style={{
-            flexDirection: "row",
-            margin:10,
-            
-            
+            marginTop:100,
+           //justifyContent:'flex-end'
+
           }}>
-          <Button info disabled style={styles.mb15}>
-            <Text>Start</Text>
-          </Button> 
-          <Button info style={styles.mb15}>
-            <Text>Save</Text>
-          </Button>
-          <Button info style={styles.mb15}
-          onPress={() => this.props.navigation.navigate('StrengthandEnergy2')}
-          >
-            <Text>Next</Text>
-          </Button>
-          </View>
-        </View>
-        </Content>
+          <Grid>
+            <Col size={80}>
+              <Button info disabled style={styles.mb15}>
+                 <Text>Prev</Text>
+              </Button> 
+            </Col>
+            <Col size={50}>
+              <Button info style={styles.mb15}
+                    onPress={() => this.props.navigation.navigate('StrengthandEnergy2')}>
+              <Text>Next</Text>
+              </Button>
+            </Col>
+          </Grid> 
+        </View> 
+      </View>
+  </Content>
 
         <Footer>
           <FooterTab>
