@@ -23,6 +23,12 @@ const datas = [
     bg: "#C5F442"
   },
   {
+    name:"Login",
+    route:"Login",
+    icon:"arrow-up",
+    bg:"#477EEA"
+  },
+  {
     name: "Header",
     route: "Header",
     icon: "arrow-up",

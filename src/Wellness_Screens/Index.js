@@ -107,7 +107,7 @@ import AccordionIcon from "./screens/accordion/accordion-icon";
 import AccordionIconStyle from "./screens/accordion/accordion-icon-style";
 import AccordionHeaderContentStyle from "./screens/accordion/accordion-header-content-style";
 import AccordionCustomHeaderContent from "./screens/accordion/accordion-custom-header-content";
-
+import DashBoardStats from "./pages/DashBoardStats";
 import Home from "./screens/home/";
 import Anatomy from "./screens/anatomy/";
 import Footer from "./screens/footer/";
@@ -164,7 +164,7 @@ import StrengthandEnergy21 from './pages/AssessmentQuiz/StrengthandEnergy21/';
 
 
 import Progressbar from './pages/ProgressBar/ProgressBar/';
-
+import Login from "./pages/login/index"
 const Drawer = DrawerNavigator(
   {
     Home: { screen: Home },
@@ -195,6 +195,9 @@ const Drawer = DrawerNavigator(
 
     
     Footer: { screen: Footer },
+    Login: {screen:Login},
+    Header:{screen:Header},
+   Footer: { screen: Footer },
     NHBadge: { screen: NHBadge },
     NHButton: { screen: NHButton },
     NHCard: { screen: NHCard },
@@ -253,16 +256,15 @@ const AppNavigator = StackNavigator(
     StrengthandEnergy20 : { screen : StrengthandEnergy20 },
     StrengthandEnergy21 : { screen : StrengthandEnergy21 },
     Progressbar : { screen : Progressbar},
-
-
-
+    Header2:{screen:Header2},
+    Login: {screen:Login},
     Header1: { screen: Header1 },
     Header3: { screen: Header3 },
     Header4: { screen: Header4 },
     Header5: { screen: Header5 },
     Header6: { screen: Header6 },
     Header7: { screen: Header7 },
-    Header8: { screen: Header8 },
+   Header8: { screen: Header8 },
     HeaderSpan: { screen: HeaderSpan },
     HeaderNoShadow: { screen: HeaderNoShadow },
     HeaderNoLeft: { screen: HeaderNoLeft },
