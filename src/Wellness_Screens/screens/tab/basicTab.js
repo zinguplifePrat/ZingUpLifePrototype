@@ -54,7 +54,7 @@ const walk = require("../../Images/walk.png");
           source={require('../../Images/wellness.png')}
         />
         </View>
-        <Content padder >
+        <Content padder style={{backgroundColor:'#2e98b2'}}>
       
           {/* <Button rounded success style={styles.mb15}>
             <Text>All </Text>
@@ -83,7 +83,7 @@ const walk = require("../../Images/walk.png");
           <Card style={styles.mb}>
             <CardItem>
                 <Body>
-                <Text style={{fontSize:20,fontWeight:'400'}}>Take 5000 Steps a day</Text>
+                <Text style={{fontSize:15,fontWeight:'400'}}>Take 5000 Steps a day</Text>
                 <Grid>
                   <Row>
                 <Progress.Circle thickness={4} borderColor={'#f9fafc'} unfilledColor={'#f2f2f2'}  progress={0.5} size={30} color={'green'}  />
@@ -117,7 +117,7 @@ const walk = require("../../Images/walk.png");
             <Card style={styles.mb}>
             <CardItem>
                 <Body>
-                <Text style={{fontSize:20,fontWeight:'400'}}>Active 1 hr a day</Text>
+                <Text style={{fontSize:15,fontWeight:'400'}}>Active 1 hr a day</Text>
                 <Grid>
                   <Row>
                 <Progress.Circle thickness={4} borderColor={'#f9fafc'} unfilledColor={'#f2f2f2'}  progress={0.5} size={30} color={'green'}  />
@@ -162,22 +162,7 @@ const walk = require("../../Images/walk.png");
          
        <Container style={styles.container}>
 
-           <View style ={{flex: 1,
-            justifyContent: 'center',
-            alignItems: 'center',
-            backgroundColor: '#F5FCFF',
-            flexDirection: 'column',
-            position:'absolute'}}>
-        <Image
-          style={{
-            width: Dimensions.get('screen').width,
-             height:Dimensions.get('screen').height,
-           //  flex: 1,
-            // resizeMode: 'cover'
-        }}
-          source={require('../../Images/1.jpg')}
-        />
-        </View>
+           
          <Content>
           <Card style={styles.mb}>
             <CardItem>
@@ -250,33 +235,17 @@ const walk = require("../../Images/walk.png");
                 </Right>
               </Grid>
           </Card>
-              <Icon name="star"/>
+              
           </Content>
 
       </Container>
           
           </Tab>
           <Tab heading="Schedule">
-          <View style ={{
-            justifyContent: 'center',
-            alignItems: 'center',
-            backgroundColor: '#F5FCFF',
-            flexDirection: 'column',
-            position:'absolute'}}>
-        <Image
-          style={{
-            width: Dimensions.get('window').width,
-             height:Dimensions.get('window').height,
-             flex: 1,
-            resizeMode: 'cover'
-        }}
-          source={require('../../Images/1.jpg')}
-        />
-        
-        </View>
-          <Container style={ {position:'relative',padding:15,marginBottom:300}}>
+       
+                 <Container style={ {padding:15,backgroundColor:'#2e98b2'}}>
           
-          <Card style={styles.mb}>
+          <Card style={{marginBottom: 10,marginBottom:250}}>
                 
                 <Text style={{color:'green',textAlign:'center',fontWeight:'bold',fontSize:20}}>Appointment Scheduled</Text>
               <View>
@@ -305,7 +274,7 @@ const walk = require("../../Images/walk.png");
               </Button>
               </View>
            </View> */}
-           <Text ><Text style={{fontWeight:'bold'}}>Venue:</Text>201/B,Park Avenue Andheri(E), Mumbai</Text>
+           <Text ><Text style={{fontWeight:'bold',marginLeft:5}}>Venue:</Text>201/B,Park Avenue Andheri(E), Mumbai</Text>
            <Text style={{marginTop:20,marginLeft:5}}><Text style={{fontWeight:'bold'}}>Note:</Text>Please bring your previous reports</Text>
          </Card>
        </Container>
