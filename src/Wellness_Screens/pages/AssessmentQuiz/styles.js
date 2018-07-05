@@ -6,7 +6,21 @@ export default {
   },
   mb15:{
     margin:20,
-    width:80,
-    justifyContent:'center'
-  }
+    width:100,
+    justifyContent:'center',
+    backgroundColor:'#007aff',
+    
+  },
+  mb16:{
+    margin:20,
+    width:100,
+    justifyContent:'center',
+    // backgroundColor:'#007aff',
+    
+  },
+  optionText:{
+    fontFamily:'Arial Hebrew',
+    fontSize:16
+  },
+ 
 };

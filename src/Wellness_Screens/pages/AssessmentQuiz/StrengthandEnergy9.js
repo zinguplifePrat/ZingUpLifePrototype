@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { View ,Image ,Dimensions} from 'react-native';
+import * as Progress from 'react-native-progress';
+import { Grid,Col,Row } from "react-native-easy-grid";
 import {
   Container,
   Header,
@@ -90,35 +92,41 @@ class StrengthandEnergy9 extends Component {
         <Content>
           
         <View>
-           {/* <Text>Content goes here</Text>  */}
-          <Image
-            style={{
-              backgroundColor: '#ccc',
-              // flex: 1,
-              width: screenWidth,
-              height: screenHeight,
+        <View style={{
+            backgroundColor:'#007aff',
+            width:screenWidth,
+            }}>
+          <Grid>
+            <Col size={10}>
+                <Text>
+                 <Button  transparent onPress={() => this.props.navigation.goBack()}>
+                      <Icon name="arrow-back" style={{ color: "white" }}/>
+                </Button>
+                </Text>
+            </Col>
+            <Col size={85}>
+            <Text style={{
+              fontWeight:'bold',
+              fontSize:20,
+              color:'white',
+              padding:7
+            }}> 
+               Strength and Energy</Text>
+            </Col>
+          </Grid>
+          </View>
+          <Progress.Bar progress={0.45} width={screenWidth}  borderWidth={0} color={'black'} borderRadius={0}/>
 
-              position: 'absolute',
-              justifyContent: 'center',
-            }}
-            source={require('../../Images/lotus.jpg')}
-          >
-          </Image>
           <Text
           style={{
-            backgroundColor: '#fff',
-            fontSize: 10,
-            padding:4,
-            marginTop:5,
-            backgroundColor:'green',
-
+            marginTop:30,
+            padding:10,
+            alignSelf:'center',
+            fontFamily:'Cochin',
+            fontSize:25
           }}
         >
-          <Text style={{
-            marginLeft:30,
-            
-          }}
-          >9.You don't exercise because:(Select all that apply)</Text>
+         9.You don't exercise because:(Select all that apply)
        </Text>
        <View style={{
          backgroundColor:"#fff",
@@ -174,7 +182,7 @@ class StrengthandEnergy9 extends Component {
               <Text>I feel exercising is too expensive</Text>
             </Body>
           </ListItem>
-          <ListItem button onPress={() => this.toggleSwitch6()}>
+          {/* <ListItem button onPress={() => this.toggleSwitch6()}>
             <CheckBox
               color="green"
               checked={this.state.checkbox6}
@@ -193,30 +201,29 @@ class StrengthandEnergy9 extends Component {
             <Body>
               <Text>I do not have access for exercising facilties</Text>
             </Body>
-          </ListItem>
+          </ListItem> */}
          
           </View>
           <View style={{
-            flexDirection: "row",
-            margin:10,
-            
-            
-          }}>
-          <Button info style={styles.mb15}
-          onPress={() => this.props.navigation.navigate('StrengthandEnergy8')}
+            marginTop:10,
+           //justifyContent:'flex-end'
 
-          >
-            <Text>Prev</Text>
-          </Button>
-          <Button info style={styles.mb15}>
-            <Text>Save</Text>
-          </Button>
-          <Button info style={styles.mb15}
-          onPress={() => this.props.navigation.navigate('StrengthandEnergy10')}
-          >
-            <Text>Next</Text>
-          </Button>
-          </View>
+          }}>
+          <Grid>
+            <Col size={80}>
+              <Button info  style={styles.mb15}
+              onPress={() => this.props.navigation.navigate('StrengthandEnergy8')}>
+                 <Text>Prev</Text>
+              </Button> 
+            </Col>
+            <Col size={50}>
+              <Button info style={styles.mb15}
+                    onPress={() => this.props.navigation.navigate('StrengthandEnergy10')}>
+              <Text>Next</Text>
+              </Button>
+            </Col>
+          </Grid> 
+        </View>
         </View>
         </Content>
 
