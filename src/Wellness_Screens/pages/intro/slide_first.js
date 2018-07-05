@@ -16,7 +16,7 @@ export default class Slide_Page extends Component {
         />
         
        <Text style={styles.text1}>Welcome to Zing Up Life!</Text>
-     <Text style={styles.textDesc1}>Your One stop destination to attain holistic wellbeing</Text>
+     <Text style={styles.textDesc1}> One stop destination to attain holistic wellbeing</Text>
          
         </View>
     )

@@ -16,14 +16,17 @@ export default  styles = StyleSheet.create({
       backgroundColor: '#FFFFFF',
     },
     logo1:{
-       width:250,
-       height:250
+       width:200,
+       height:200
        
     },
     textDesc1:{
+        
         color: '#000',
       fontSize: 15,
       paddingLeft:18,
+      justifyContent:'center',
+      alignItems:'center'
     },
     slide2: {
       flex: 1,
@@ -39,7 +42,7 @@ export default  styles = StyleSheet.create({
     },
     text1: {
       color: '#000',
-      fontSize: 30,
+      fontSize: 20,
       fontWeight: 'bold',
       marginTop:100
       

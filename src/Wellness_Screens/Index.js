@@ -108,7 +108,7 @@ import AccordionIconStyle from "./screens/accordion/accordion-icon-style";
 import AccordionHeaderContentStyle from "./screens/accordion/accordion-header-content-style";
 import AccordionCustomHeaderContent from "./screens/accordion/accordion-custom-header-content";
 import DashBoardStats from "./pages/DashBoardStats";
-import Home from "./screens/home/";
+import Home from "./pages/intro/index";
 import Anatomy from "./screens/anatomy/";
 import Footer from "./screens/footer/";
 import NHBadge from "./screens/badge/";
@@ -164,7 +164,7 @@ import StrengthandEnergy21 from './pages/AssessmentQuiz/StrengthandEnergy21/';
 
 
 import Progressbar from './pages/ProgressBar/ProgressBar/';
-import Login from "./pages/login/index"
+import Login from "./pages/intro/index"
 const Drawer = DrawerNavigator(
   {
     Home: { screen: Home },
