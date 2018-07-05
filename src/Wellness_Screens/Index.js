@@ -161,10 +161,11 @@ import StrengthandEnergy21 from './pages/AssessmentQuiz/StrengthandEnergy21/';
 
 
 
-
+import Settings from "./pages/settings/";
+import Assessment from "./pages/assessment/";
 
 import Progressbar from './pages/ProgressBar/ProgressBar/';
-import Login from "./pages/login/index"
+import Login from "./pages/login/index";
 const Drawer = DrawerNavigator(
   {
     Home: { screen: Home },
@@ -196,6 +197,8 @@ const Drawer = DrawerNavigator(
     
     Footer: { screen: Footer },
     Login: {screen:Login},
+    Settings: {screen : Settings},
+    Assessment:{screen:Assessment},
     Header:{screen:Header},
     Footer: { screen: Footer },
     NHBadge: { screen: NHBadge },
@@ -258,6 +261,8 @@ const AppNavigator = StackNavigator(
     Progressbar : { screen : Progressbar},
     Header2:{screen:Header2},
     Login: {screen:Login},
+    Settings: {screen : Settings},
+    Assessment:{screen:Assessment},
     Header1: { screen: Header1 },
     Header3: { screen: Header3 },
     Header4: { screen: Header4 },

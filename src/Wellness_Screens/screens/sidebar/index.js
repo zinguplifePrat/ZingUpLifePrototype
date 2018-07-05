@@ -29,6 +29,18 @@ const datas = [
     bg:"#477EEA"
   },
   {
+    name: "Assessment",
+    route: "Assessment",
+    icon: "settings",
+    bg: "#C5F442"
+  },
+  {
+    name: "Settings",
+    route: "Settings",
+    icon: "settings",
+    bg: "#C5F442"
+  },
+  {
     name: "Header",
     route: "Header",
     icon: "arrow-up",
