@@ -21,7 +21,7 @@ export default  styles = StyleSheet.create({
        
     },
     textDesc1:{
-        
+     
         color: '#000',
       fontSize: 15,
       paddingLeft:18,
@@ -44,7 +44,7 @@ export default  styles = StyleSheet.create({
       color: '#000',
       fontSize: 20,
       fontWeight: 'bold',
-      marginTop:100
+      marginTop:30
       
     }
   })
