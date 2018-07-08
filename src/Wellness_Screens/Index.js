@@ -165,7 +165,8 @@ import Settings from "./pages/settings/";
 import Assessment from "./pages/assessment/";
 
 import Progressbar from './pages/ProgressBar/ProgressBar/';
-import Login from "./pages/intro/index"
+import Login from "./pages/login"
+import TrailerZingUp from "./pages/intro/index"
 const Drawer = DrawerNavigator(
   {
     Home: { screen: Home },

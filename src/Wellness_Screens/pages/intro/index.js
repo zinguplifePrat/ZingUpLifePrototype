@@ -16,7 +16,7 @@ import Page_SIX from './slide_six';
 export default class Index extends Component {
   checkEnd(index){
     if(index==4){
-      this.props.navigation.navigate("DrawerOpen");
+      this.props.navigation.navigate("Login");
     }
   }
   render(){
@@ -26,7 +26,7 @@ export default class Index extends Component {
       onIndexChanged={(index)=>{
         if(index==4){
           setTimeout(function(){
-            classState.props.navigation.navigate("DrawerOpen");
+            classState.props.navigation.navigate("Login");
           },2000);
           
         }
