@@ -206,6 +206,12 @@ const datas = [
     icon: "phone-portrait",
     bg: "#C5F442"
   },
+  {
+    name: "ThoughtControl",
+    route: "ThoughtControl",
+    icon: "phone-portrait",
+    bg: "#C5F442"
+  },
 ];
 
 class SideBar extends Component {

@@ -257,7 +257,7 @@ const walk = require("../../Images/walk.png");
                   <Thumbnail circle size={80} source={diet1} />
                <Body>
                 <Text style={{color:'darkblue'}}>Aarohi Sharma </Text>
-                <Text>Certified & License Zumba Instructor</Text>
+                <Text>Certified  License Zumba Instructor</Text>
               </Body>
               <IconNB  name="md-star" /><IconNB  name="md-star" /><IconNB  name="md-star" /><IconNB  name="md-star" />
               </Left>

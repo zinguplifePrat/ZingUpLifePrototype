@@ -158,6 +158,8 @@ import StrengthandEnergy19 from './pages/AssessmentQuiz/StrengthandEnergy19/';
 import StrengthandEnergy20 from './pages/AssessmentQuiz/StrengthandEnergy20/';
 import StrengthandEnergy21 from './pages/AssessmentQuiz/StrengthandEnergy21/';
 
+import ThoughtControl from './pages/Reports/ThoughtControl/';
+
 
 
 
@@ -192,6 +194,8 @@ const Drawer = DrawerNavigator(
     StrengthandEnergy21 : { screen : StrengthandEnergy21 },
 
     Progressbar : { screen: Progressbar},
+
+    ThoughtControl : { screen : ThoughtControl },
 
     
     Footer: { screen: Footer },
@@ -256,6 +260,7 @@ const AppNavigator = StackNavigator(
     StrengthandEnergy20 : { screen : StrengthandEnergy20 },
     StrengthandEnergy21 : { screen : StrengthandEnergy21 },
     Progressbar : { screen : Progressbar},
+    ThoughtControl : { screen : ThoughtControl },
     Header2:{screen:Header2},
     Login: {screen:Login},
     Header1: { screen: Header1 },
