@@ -108,7 +108,7 @@ import AccordionIconStyle from "./screens/accordion/accordion-icon-style";
 import AccordionHeaderContentStyle from "./screens/accordion/accordion-header-content-style";
 import AccordionCustomHeaderContent from "./screens/accordion/accordion-custom-header-content";
 import DashBoardStats from "./pages/DashBoardStats";
-import Home from "./screens/home/";
+import Home from "./pages/intro/index";
 import Anatomy from "./screens/anatomy/";
 import Footer from "./screens/footer/";
 import NHBadge from "./screens/badge/";
@@ -163,10 +163,12 @@ import ThoughtControl from './pages/Reports/ThoughtControl/';
 
 
 
-
+import Settings from "./pages/settings/";
+import Assessment from "./pages/assessment/index1";
 
 import Progressbar from './pages/ProgressBar/ProgressBar/';
-import Login from "./pages/login/index"
+import Login from "./pages/login"
+import TrailerZingUp from "./pages/intro/index"
 const Drawer = DrawerNavigator(
   {
     Home: { screen: Home },
@@ -200,6 +202,8 @@ const Drawer = DrawerNavigator(
     
     Footer: { screen: Footer },
     Login: {screen:Login},
+    Settings: {screen : Settings},
+    Assessment:{screen:Assessment},
     Header:{screen:Header},
     Footer: { screen: Footer },
     NHBadge: { screen: NHBadge },
@@ -263,6 +267,8 @@ const AppNavigator = StackNavigator(
     ThoughtControl : { screen : ThoughtControl },
     Header2:{screen:Header2},
     Login: {screen:Login},
+    Settings: {screen : Settings},
+    Assessment:{screen:Assessment},
     Header1: { screen: Header1 },
     Header3: { screen: Header3 },
     Header4: { screen: Header4 },

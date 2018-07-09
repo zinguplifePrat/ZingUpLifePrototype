@@ -14,7 +14,40 @@ import {
 import styles from "./style";
 
 const drawerCover = require("../../../assets/drawer-cover.png");
-const drawerImage = require("../../../assets/logo-kitchen-sink.png");
+const drawerImage = require("../../../assets/zingup.png");
+//menu data for demo purpose
+const demoDatas =  [
+  {
+    name: "Dashboard",
+    route: "BasicTab",
+    icon: "home",
+    bg: "#AB6AED",
+    
+  }
+  ,{
+    name: "Strength and Energy",
+    route: "StrengthandEnergy",
+    icon: "phone-portrait",
+    bg: "#C5F442"
+  }
+,
+  {
+    name: "Assessment",
+    route: "Assessment",
+    icon: "settings",
+    bg: "#C5F442"
+  },
+  {
+    name: "Settings",
+    route: "Settings",
+    icon: "settings",
+    bg: "#C5F442"
+  },
+
+
+];
+
+//menu data for development purpose
 const datas = [
   {
     name: "Anatomy",
@@ -27,6 +60,18 @@ const datas = [
     route:"Login",
     icon:"arrow-up",
     bg:"#477EEA"
+  },
+  {
+    name: "Assessment",
+    route: "Assessment",
+    icon: "settings",
+    bg: "#C5F442"
+  },
+  {
+    name: "Settings",
+    route: "Settings",
+    icon: "settings",
+    bg: "#C5F442"
   },
   {
     name: "Header",
@@ -234,7 +279,7 @@ class SideBar extends Component {
           <Image square style={styles.drawerImage} source={drawerImage} />
 
           <List
-            dataArray={datas}
+            dataArray={demoDatas}
             renderRow={data =>
               <ListItem
                 button
