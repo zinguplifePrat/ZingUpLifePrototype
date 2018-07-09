@@ -90,11 +90,11 @@ class StrengthandEnergy12 extends Component {
           <Right />
         </Header>
         <Content>
-          <Progress.Bar progress={0.6} width={screenWidth}  borderWidth={0} color={'black'} borderRadius={0}/>
+          <Progress.Bar progress={0.6} width={screenWidth}  borderWidth={0} color={'orange'} borderRadius={0}/>
 
           <Text
           style={{
-            marginTop:50,
+            marginTop:5,
             padding:10,
             alignSelf:'center',
             fontFamily:'Cochin',

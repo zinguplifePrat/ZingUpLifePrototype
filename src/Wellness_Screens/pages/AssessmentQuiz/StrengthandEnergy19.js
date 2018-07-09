@@ -90,11 +90,11 @@ class StrengthandEnergy19 extends Component {
           <Right />
         </Header>
         <Content>
-          <Progress.Bar progress={1} width={screenWidth}  borderWidth={0} color={'black'} borderRadius={0}/>
+          <Progress.Bar progress={1} width={screenWidth}  borderWidth={0} color={'green'} borderRadius={0}/>
 
           <Text
           style={{
-            marginTop:50,
+            marginTop:5,
             padding:10,
             alignSelf:'center',
             fontFamily:'Cochin',
@@ -160,7 +160,7 @@ class StrengthandEnergy19 extends Component {
             </Col>
             <Col size={50}>
               <Button  success style={styles.mb16}
-                    // onPress={() => this.props.navigation.navigate('StrengthandEnergy20')}
+                    onPress={() => this.props.navigation.navigate('ThoughtControl')}
                     >
               <Text>Submit</Text>
               </Button>

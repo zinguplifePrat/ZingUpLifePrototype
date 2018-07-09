@@ -90,7 +90,7 @@ class StrengthandEnergy5 extends Component {
           <Right />
         </Header>
         <Content>
-          <Progress.Bar progress={0.25} width={screenWidth}  borderWidth={0} color={'black'} borderRadius={0}/>
+          <Progress.Bar progress={0.25} width={screenWidth}  borderWidth={0} color={'red'} borderRadius={0}/>
 
           
         <View>
@@ -98,7 +98,7 @@ class StrengthandEnergy5 extends Component {
           
           <Text
           style={{
-            marginTop:50,
+            marginTop:5,
             padding:20,
             alignSelf:'center',
             fontFamily:'Cochin',

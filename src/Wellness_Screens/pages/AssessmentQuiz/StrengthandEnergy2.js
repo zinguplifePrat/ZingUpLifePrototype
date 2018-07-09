@@ -92,12 +92,12 @@ class StrengthandEnergy2 extends Component {
         <Content>
 
           
-        <Progress.Bar progress={0.1} width={screenWidth}  borderWidth={0} color={'black'} borderRadius={0}/>
+        <Progress.Bar progress={0.1} width={screenWidth}  borderWidth={0} color={'red'} borderRadius={0}/>
           
         <View>
           <Text
           style={{
-            marginTop:50,
+            marginTop:5,
             padding:20,
             alignSelf:'center',
             fontFamily:'Cochin',
