@@ -46,7 +46,7 @@ class ThoughtControl extends Component {
             </Button>
           </Left>
           <Body >
-            <Text style={{color:'white',fontWeight:'bold'}}>Strenght and Energy</Text>
+            <Text style={{color:'white',fontWeight:'bold'}}>Strength and Energy</Text>
           </Body>
           <Right />
         </Header>
