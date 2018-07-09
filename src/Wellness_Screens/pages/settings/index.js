@@ -20,6 +20,7 @@ import {
 
 import { Grid, Row } from "react-native-easy-grid";
 import styles from "./styles";
+import IconFooter from "../../screens/footer/iconFooter";
 
 //const logo = require("../../../assets/splashscreen.png");
 const cover = require("../../../assets/web-cover1.jpg");
@@ -47,7 +48,7 @@ class Settings extends Component {
             </Button>
           </Left>
           <Body>
-            <Title>Header</Title>
+            <Title>Profile</Title>
           </Body>
           <Right />
         </Header>
@@ -126,13 +127,7 @@ class Settings extends Component {
 
         </Content>
 
-        <Footer>
-          <FooterTab>
-            <Button active full>
-              <Text>Footer</Text>
-            </Button>
-          </FooterTab>
-        </Footer>
+ <IconFooter />
       </Container>
     );
   }

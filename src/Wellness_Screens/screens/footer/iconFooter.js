@@ -58,20 +58,6 @@ class IconFooter extends Component {
   }
   render() {
     return (
-      <Container style={styles.container}>
-        <Header>
-          <Left>
-            <Button transparent onPress={() => this.props.navigation.goBack()}>
-              <Icon name="arrow-back" />
-            </Button>
-          </Left>
-          <Body>
-            <Title>Footer</Title>
-          </Body>
-          <Right />
-        </Header>
-
-        <Content padder />
 
         <Footer>
           <FooterTab>
@@ -89,7 +75,7 @@ class IconFooter extends Component {
             </Button>
           </FooterTab>
         </Footer>
-      </Container>
+   
     );
   }
 }

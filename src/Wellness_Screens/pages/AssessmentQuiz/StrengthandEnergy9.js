@@ -98,11 +98,9 @@ class StrengthandEnergy9 extends Component {
             }}>
           <Grid>
             <Col size={10}>
-                <Text>
                  <Button  transparent onPress={() => this.props.navigation.goBack()}>
                       <Icon name="arrow-back" style={{ color: "white" }}/>
                 </Button>
-                </Text>
             </Col>
             <Col size={85}>
             <Text style={{

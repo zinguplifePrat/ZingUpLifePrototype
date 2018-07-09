@@ -19,7 +19,7 @@ import {
 } from "native-base";
 
 import styles from "./styles";
-
+import IconFooter from "../../screens/footer/iconFooter";
 
 
 class ThoughtControl extends Component {
@@ -45,8 +45,8 @@ class ThoughtControl extends Component {
               <Icon name="ios-menu" />
             </Button>
           </Left>
-          <Body>
-            <Text>Thought Control</Text>
+          <Body >
+            <Text style={{color:'white',fontWeight:'bold'}}>Thought Control</Text>
           </Body>
           <Right />
         </Header>
@@ -75,7 +75,7 @@ class ThoughtControl extends Component {
                             }}
                             source={require('../../Images/blue1.jpg')}
                                 resizeMode="stretch"       
-                        >     */}
+                        >     
                 <Text style={{
                     //color:'#007aff',
                     color:'white',
@@ -112,7 +112,7 @@ class ThoughtControl extends Component {
                     }}>
                     You lead a healthy lifestyle and have a 
                     good control over self.
-                    />
+                    
 
                 </Text> 
                 
@@ -181,17 +181,16 @@ class ThoughtControl extends Component {
                     </View>
                 </View>
 
-            
+           <Header style={{marginTop:10,textAlign:'left'}}> 
            <Text
             style={{
                 color:'white',
-                backgroundColor:'#2e98b2',
-                padding:5,
-                marginTop:10,
                 fontSize:25,
                 fontFamily:'Cochin'
+                ,flex:1
             }}>
             Recommended Actions </Text>
+            </Header>
 
                 <View style={{flex:1,flexDirection:"row",justifyContent:'space-between'}}>
                     <View style={{flex:1,height:180,marginLeft:10}}>
@@ -278,13 +277,7 @@ class ThoughtControl extends Component {
             </ScrollView>
         </Content>
 
-        <Footer>
-          <FooterTab>
-            <Button active full>
-              <Text>Footer</Text>
-            </Button>
-          </FooterTab>
-        </Footer>
+<IconFooter />
       </Container>
     );
   }
