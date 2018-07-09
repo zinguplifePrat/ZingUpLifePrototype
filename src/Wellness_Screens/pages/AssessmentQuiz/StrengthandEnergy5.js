@@ -70,43 +70,25 @@ class StrengthandEnergy5 extends Component {
         let screenHeight = Dimensions.get('screen').height;
     return (
       <Container style={styles.container}>
-        <Header>
+         <Header>
           <Left>
             <Button
               transparent
-              onPress={() => this.props.navigation.navigate("DrawerOpen")}
+              onPress={() => this.props.navigation.goBack()}
             >
-              <Icon name="ios-menu" />
+              <Icon name="arrow-back" />
             </Button>
           </Left>
           <Body>
-            <Title>Header</Title>
+          <Text style={{
+              fontWeight:'bold',
+              color:'white',
+            }}> 
+               Strength and Energy</Text>
           </Body>
           <Right />
         </Header>
-
         <Content>
-        <View style={{
-            backgroundColor:'#007aff',
-            width:screenWidth,
-            }}>
-          <Grid>
-            <Col size={10}>
-                 <Button  transparent onPress={() => this.props.navigation.goBack()}>
-                      <Icon name="arrow-back" style={{ color: "white" }}/>
-                </Button>
-            </Col>
-            <Col size={85}>
-            <Text style={{
-              fontWeight:'bold',
-              fontSize:20,
-              color:'white',
-              padding:7
-            }}> 
-               Strength and Energy</Text>
-            </Col>
-          </Grid>
-          </View>
           <Progress.Bar progress={0.25} width={screenWidth}  borderWidth={0} color={'black'} borderRadius={0}/>
 
           
