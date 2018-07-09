@@ -44,7 +44,7 @@ class Home extends Component {
               </Item>
             </Form>
             <Button block style={{ margin: 15, marginTop: 50 }}
-              onPress={() => this.props.navigation.navigate("BasicTab")}>
+              onPress={() => this.props.navigation.navigate("DrawerOpen")}>
               <Text>Sign In</Text>
             </Button>
             <View style={{flex:1,flexDirection:"row"}}>
