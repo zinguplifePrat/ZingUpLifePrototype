@@ -20,6 +20,7 @@ import {
 } from "native-base";
 
 import styles from "./styles";
+import IconFooter from "../../screens/footer/iconFooter";
 
 class StrengthandEnergy4 extends Component {
   constructor(props) {
@@ -169,13 +170,7 @@ class StrengthandEnergy4 extends Component {
       
         </Content>
 
-        <Footer>
-          <FooterTab>
-            <Button active full>
-              <Text>Footer</Text>
-            </Button>
-          </FooterTab>
-        </Footer>
+       <IconFooter/>
       </Container>
     );
   }
