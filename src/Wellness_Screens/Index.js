@@ -162,7 +162,7 @@ import StrengthandEnergy21 from './pages/AssessmentQuiz/StrengthandEnergy21/';
 
 
 import Settings from "./pages/settings/";
-import Assessment from "./pages/assessment/";
+import Assessment from "./pages/assessment/index1";
 
 import Progressbar from './pages/ProgressBar/ProgressBar/';
 import Login from "./pages/login"
