@@ -164,7 +164,7 @@ import ThoughtControl from './pages/Reports/ThoughtControl/';
 
 
 import Settings from "./pages/settings/";
-import Assessment from "./pages/assessment/index1";
+import Assessment from "./pages/assessment/index2";
 
 import Progressbar from './pages/ProgressBar/ProgressBar/';
 import Login from "./pages/login"
