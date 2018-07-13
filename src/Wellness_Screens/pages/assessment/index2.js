@@ -46,7 +46,7 @@ class Assessment extends Component {
                         </Button>
                     </Left>
                     <Body>
-                        <Title>Profile</Title>
+                        <Title>Assessment</Title>
                     </Body>
                     <Right />
                 </Header>
