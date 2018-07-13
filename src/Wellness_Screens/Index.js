@@ -165,7 +165,7 @@ import ThoughtControl from './pages/Reports/ThoughtControl/';
 
 import Settings from "./pages/settings/";
 import Assessment from "./pages/assessment/index2";
-
+import Stats from "./pages/stats/"
 import Progressbar from './pages/ProgressBar/ProgressBar/';
 import Login from "./pages/login"
 import TrailerZingUp from "./pages/intro/index"
@@ -204,6 +204,7 @@ const Drawer = DrawerNavigator(
     Login: {screen:Login},
     Settings: {screen : Settings},
     Assessment:{screen:Assessment},
+    Stats:{screen:Stats},
     Header:{screen:Header},
     Footer: { screen: Footer },
     NHBadge: { screen: NHBadge },
@@ -269,6 +270,7 @@ const AppNavigator = StackNavigator(
     Login: {screen:Login},
     Settings: {screen : Settings},
     Assessment:{screen:Assessment},
+    Stats:{screen:Stats},
     Header1: { screen: Header1 },
     Header3: { screen: Header3 },
     Header4: { screen: Header4 },

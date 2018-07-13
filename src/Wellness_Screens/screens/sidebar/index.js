@@ -38,6 +38,12 @@ const demoDatas =  [
     bg: "#C5F442"
   },
   {
+    name: "Stats",
+    route: "Stats",
+    icon: "pulse",
+    bg: "#C5F442"
+  },
+  {
     name: "ThoughtControl",
     route: "ThoughtControl",
     icon: "phone-portrait",

@@ -55,6 +55,8 @@ export default {
           height:20
       },
       timeCounterBody:{
-        margin: 10
+        marginBottom: 10,
+        marginLeft: 3,
+        marginRight: 3,
       }
 };

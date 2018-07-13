@@ -58,7 +58,7 @@ class Assessment extends Component {
                     <Grid>
                         <Col style={styles.colStyle}>
 
-                            <Header transparent style={{ padding: 30 }}>
+                            <Header style={{ backgroundColor:"#ffff",height:100 }}>
                                 <Left>
                                     <Thumbnail square large source={strengthnenergy} style={styles.mb35} />
                                 </Left>
@@ -90,7 +90,7 @@ class Assessment extends Component {
                         </Col>
                         <Col style={styles.colStyle}>
 
-                            <Header transparent style={{ padding: 10 }}>
+                            <Header style={{ backgroundColor:"#ffff",height:100 }}>
                                 <Left>
                                     <Thumbnail square large source={relationandintimacy} style={styles.mb35} />
                                 </Left>
@@ -125,7 +125,7 @@ class Assessment extends Component {
                     <Grid>
                         <Col style={styles.colStyle}>
 
-                            <Header transparent style={{ padding: 30 }}>
+                            <Header style={{ backgroundColor:"#ffff",height:100 }}>
                                 <Left>
                                     <Thumbnail square large source={zestforlife} style={styles.mb35} />
                                 </Left>
@@ -157,7 +157,7 @@ class Assessment extends Component {
                         </Col>
                         <Col style={styles.colStyle}>
 
-                            <Header transparent style={{ padding: 10 }}>
+                            <Header style={{ backgroundColor:"#ffff",height:100 }}>
                                 <Left>
                                     <Thumbnail square large source={thoughtcontrol} style={styles.mb35} />
                                 </Left>
@@ -192,7 +192,7 @@ class Assessment extends Component {
                     <Grid>
                         <Col style={styles.colStyle}>
 
-                            <Header transparent style={{ padding: 30 }}>
+                            <Header style={{ backgroundColor:"#ffff",height:100 }}>
                                 <Left>
                                     <Thumbnail square large source={bioAge} style={styles.mb35} />
                                 </Left>
@@ -224,7 +224,7 @@ class Assessment extends Component {
                         </Col>
                         <Col style={styles.colStyle}>
 
-                            <Header transparent style={{ padding: 10 }}>
+                            <Header style={{ backgroundColor:"#ffff",height:100 }}>
                                 <Left>
                                     <Thumbnail square large source={dietscore} style={styles.mb35} />
                                 </Left>
@@ -259,7 +259,7 @@ class Assessment extends Component {
                     <Grid>
                         <Col style={styles.colStyle}>
 
-                            <Header transparent style={{ padding: 30 }}>
+                            <Header style={{ backgroundColor:"#ffff",height:100 }}>
                                 <Left>
                                     <Thumbnail square large source={wholesomeness} style={styles.mb35} />
                                 </Left>
