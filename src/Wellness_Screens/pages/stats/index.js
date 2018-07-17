@@ -79,7 +79,7 @@ class Stats extends Component {
 
         <Content>
 
-          {/* Title Code */}
+          {/* Title of the page */}
           <View style={{ flex: 1, flexDirection: 'column' }}>
             <View style={{ borderColor: "#ddd", backgroundColor: "#14AB46", borderWidth: 2 }}>
               <Text style={{
